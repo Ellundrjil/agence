@@ -1,0 +1,103 @@
+
+.title {
+  text-align: center;
+}
+
+/* vp et header */
+
+header {
+  flex-direction: column;
+}
+
+header h2 {
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+}
+
+header ul {
+  flex-direction: column;
+  align-items: center;
+}
+
+header ul li {
+  border-top: 1px solid #ddd;
+}
+
+.vp-content {
+  padding: 4rem 1rem 4rem 1rem;
+}
+
+.vp-content h1 {
+  font-size: 2rem;
+}
+
+.vp-content p {
+  font-size: 1rem;
+  padding: 1.5rem;
+  font-weight: 400;
+}
+
+/* offer */
+
+.offer {
+  text-align: center;
+}
+
+.offer-list {
+  display: flex;
+  flex-direction: column;
+}
+
+/* who */
+
+.who {
+  flex-direction: column-reverse;
+}
+
+.who-content-img {
+  min-height: 300px;
+}
+
+.who-content-text {
+  padding: 4rem 2rem 4rem 2rem;
+}
+
+/* testimonials */
+
+.testimonials-content {
+  align-items: center;
+}
+
+.testimonial-elem {
+  flex-flow: column;
+
+  margin-bottom: 1rem;
+  alig;
+}
+
+.testimonial-elem-profile {
+  margin-top: 2rem;
+}
+
+.testimonial-elem-profile-text {
+  text-align: center;
+}
+
+.testimonial-elem-profile img {
+  display: block;
+  margin: 1.5rem auto;
+}
+
+/* contact */
+
+.contact  {
+  padding: 5rem 2rem 5rem 2rem;
+}
+
+.contact-form button {
+  margin: 3rem auto 0 auto;
+}
+
+footer {
+  padding: 2rem;
+}
